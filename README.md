@@ -51,8 +51,8 @@ You need `go`, we recommend using the version found in [our build Dockerfile](ht
 
 ```bash
 
-$ go get github.com/grafana/loki
-$ cd $GOPATH/src/github.com/grafana/loki # GOPATH is $HOME/go by default.
+$ go get github.com/metrico/loki-apache
+$ cd $GOPATH/src/github.com/metrico/loki-apache # GOPATH is $HOME/go by default.
 
 $ go build ./cmd/loki
 $ ./loki -config.file=./cmd/loki/loki-local-config.yaml
