@@ -1,4 +1,4 @@
-module github.com/grafana/loki
+module github.com/metrico/loki-apache
 
 go 1.15
 
