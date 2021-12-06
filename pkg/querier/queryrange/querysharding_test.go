@@ -15,9 +15,9 @@ import (
 	"github.com/go-kit/kit/log"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/pkg/loghttp"
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logql"
+	"github.com/metrico/loki-apache/pkg/loghttp"
+	"github.com/metrico/loki-apache/pkg/logproto"
+	"github.com/metrico/loki-apache/pkg/logql"
 )
 
 var (

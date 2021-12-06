@@ -16,12 +16,12 @@ import (
 	"github.com/weaveworks/common/server"
 	"github.com/weaveworks/common/user"
 
-	"github.com/grafana/loki/pkg/distributor"
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logql"
-	"github.com/grafana/loki/pkg/promtail/api"
-	"github.com/grafana/loki/pkg/promtail/scrapeconfig"
-	"github.com/grafana/loki/pkg/promtail/targets/target"
+	"github.com/metrico/loki-apache/pkg/distributor"
+	"github.com/metrico/loki-apache/pkg/logproto"
+	"github.com/metrico/loki-apache/pkg/logql"
+	"github.com/metrico/loki-apache/pkg/promtail/api"
+	"github.com/metrico/loki-apache/pkg/promtail/scrapeconfig"
+	"github.com/metrico/loki-apache/pkg/promtail/targets/target"
 )
 
 type PushTarget struct {

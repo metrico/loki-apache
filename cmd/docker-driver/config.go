@@ -18,11 +18,11 @@ import (
 	"github.com/prometheus/prometheus/pkg/relabel"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/grafana/loki/pkg/helpers"
-	"github.com/grafana/loki/pkg/logentry/stages"
-	"github.com/grafana/loki/pkg/promtail/client"
-	"github.com/grafana/loki/pkg/promtail/targets/file"
-	"github.com/grafana/loki/pkg/util"
+	"github.com/metrico/loki-apache/pkg/helpers"
+	"github.com/metrico/loki-apache/pkg/logentry/stages"
+	"github.com/metrico/loki-apache/pkg/promtail/client"
+	"github.com/metrico/loki-apache/pkg/promtail/targets/file"
+	"github.com/metrico/loki-apache/pkg/util"
 )
 
 const (

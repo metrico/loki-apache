@@ -19,17 +19,17 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/weaveworks/common/user"
 
-	"github.com/grafana/loki/pkg/cfg"
-	"github.com/grafana/loki/pkg/logcli/client"
-	"github.com/grafana/loki/pkg/logcli/output"
-	"github.com/grafana/loki/pkg/loghttp"
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logql"
-	"github.com/grafana/loki/pkg/logql/marshal"
-	"github.com/grafana/loki/pkg/logql/stats"
-	"github.com/grafana/loki/pkg/loki"
-	"github.com/grafana/loki/pkg/storage"
-	"github.com/grafana/loki/pkg/util/validation"
+	"github.com/metrico/loki-apache/pkg/cfg"
+	"github.com/metrico/loki-apache/pkg/logcli/client"
+	"github.com/metrico/loki-apache/pkg/logcli/output"
+	"github.com/metrico/loki-apache/pkg/loghttp"
+	"github.com/metrico/loki-apache/pkg/logproto"
+	"github.com/metrico/loki-apache/pkg/logql"
+	"github.com/metrico/loki-apache/pkg/logql/marshal"
+	"github.com/metrico/loki-apache/pkg/logql/stats"
+	"github.com/metrico/loki-apache/pkg/loki"
+	"github.com/metrico/loki-apache/pkg/storage"
+	"github.com/metrico/loki-apache/pkg/util/validation"
 )
 
 type streamEntryPair struct {

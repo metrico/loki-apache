@@ -16,12 +16,12 @@ import (
 	"github.com/prometheus/prometheus/pkg/labels"
 	"github.com/weaveworks/common/user"
 
-	"github.com/grafana/loki/pkg/iter"
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logql"
-	"github.com/grafana/loki/pkg/logql/stats"
-	"github.com/grafana/loki/pkg/storage/stores/shipper"
-	"github.com/grafana/loki/pkg/util"
+	"github.com/metrico/loki-apache/pkg/iter"
+	"github.com/metrico/loki-apache/pkg/logproto"
+	"github.com/metrico/loki-apache/pkg/logql"
+	"github.com/metrico/loki-apache/pkg/logql/stats"
+	"github.com/metrico/loki-apache/pkg/storage/stores/shipper"
+	"github.com/metrico/loki-apache/pkg/util"
 )
 
 var (

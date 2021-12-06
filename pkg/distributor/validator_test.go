@@ -10,9 +10,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/weaveworks/common/httpgrpc"
 
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logql"
-	"github.com/grafana/loki/pkg/util/validation"
+	"github.com/metrico/loki-apache/pkg/logproto"
+	"github.com/metrico/loki-apache/pkg/logql"
+	"github.com/metrico/loki-apache/pkg/util/validation"
 )
 
 var testStreamLabels = "FIXME"

@@ -11,8 +11,8 @@ import (
 	"github.com/cortexproject/cortex/pkg/querier/worker"
 	"github.com/felixge/fgprof"
 
-	"github.com/grafana/loki/pkg/storage/stores/shipper/compactor"
-	"github.com/grafana/loki/pkg/util/runtime"
+	"github.com/metrico/loki-apache/pkg/storage/stores/shipper/compactor"
+	"github.com/metrico/loki-apache/pkg/util/runtime"
 
 	"github.com/cortexproject/cortex/pkg/util/flagext"
 	"github.com/cortexproject/cortex/pkg/util/modules"
@@ -36,17 +36,17 @@ import (
 	"github.com/weaveworks/common/server"
 	"google.golang.org/grpc"
 
-	"github.com/grafana/loki/pkg/distributor"
-	"github.com/grafana/loki/pkg/ingester"
-	"github.com/grafana/loki/pkg/ingester/client"
-	"github.com/grafana/loki/pkg/lokifrontend"
-	"github.com/grafana/loki/pkg/querier"
-	"github.com/grafana/loki/pkg/querier/queryrange"
-	"github.com/grafana/loki/pkg/ruler"
-	"github.com/grafana/loki/pkg/storage"
-	"github.com/grafana/loki/pkg/tracing"
-	serverutil "github.com/grafana/loki/pkg/util/server"
-	"github.com/grafana/loki/pkg/util/validation"
+	"github.com/metrico/loki-apache/pkg/distributor"
+	"github.com/metrico/loki-apache/pkg/ingester"
+	"github.com/metrico/loki-apache/pkg/ingester/client"
+	"github.com/metrico/loki-apache/pkg/lokifrontend"
+	"github.com/metrico/loki-apache/pkg/querier"
+	"github.com/metrico/loki-apache/pkg/querier/queryrange"
+	"github.com/metrico/loki-apache/pkg/ruler"
+	"github.com/metrico/loki-apache/pkg/storage"
+	"github.com/metrico/loki-apache/pkg/tracing"
+	serverutil "github.com/metrico/loki-apache/pkg/util/server"
+	"github.com/metrico/loki-apache/pkg/util/validation"
 )
 
 // Config is the root config for Loki.

@@ -16,11 +16,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/weaveworks/common/server"
 
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/promtail/api"
-	"github.com/grafana/loki/pkg/promtail/client"
-	"github.com/grafana/loki/pkg/promtail/client/fake"
-	"github.com/grafana/loki/pkg/promtail/scrapeconfig"
+	"github.com/metrico/loki-apache/pkg/logproto"
+	"github.com/metrico/loki-apache/pkg/promtail/api"
+	"github.com/metrico/loki-apache/pkg/promtail/client"
+	"github.com/metrico/loki-apache/pkg/promtail/client/fake"
+	"github.com/metrico/loki-apache/pkg/promtail/scrapeconfig"
 )
 
 func TestPushTarget(t *testing.T) {

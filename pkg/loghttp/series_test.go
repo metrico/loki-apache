@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/pkg/logproto"
+	"github.com/metrico/loki-apache/pkg/logproto"
 )
 
 func TestParseSeriesQuery(t *testing.T) {

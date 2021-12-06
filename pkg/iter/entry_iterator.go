@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/grafana/loki/pkg/helpers"
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logql/stats"
-	"github.com/grafana/loki/pkg/util"
+	"github.com/metrico/loki-apache/pkg/helpers"
+	"github.com/metrico/loki-apache/pkg/logproto"
+	"github.com/metrico/loki-apache/pkg/logql/stats"
+	"github.com/metrico/loki-apache/pkg/util"
 )
 
 // EntryIterator iterates over entries in time-order.

@@ -15,11 +15,11 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/discovery/targetgroup"
 
-	"github.com/grafana/loki/pkg/logentry/stages"
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/promtail/api"
-	"github.com/grafana/loki/pkg/promtail/scrapeconfig"
-	"github.com/grafana/loki/pkg/promtail/targets/target"
+	"github.com/metrico/loki-apache/pkg/logentry/stages"
+	"github.com/metrico/loki-apache/pkg/logproto"
+	"github.com/metrico/loki-apache/pkg/promtail/api"
+	"github.com/metrico/loki-apache/pkg/promtail/scrapeconfig"
+	"github.com/metrico/loki-apache/pkg/promtail/targets/target"
 )
 
 // bufferSize is the size of the buffered reader

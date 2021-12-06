@@ -13,7 +13,7 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/pkg/logentry/stages"
+	"github.com/metrico/loki-apache/pkg/logentry/stages"
 )
 
 var jobRename = `

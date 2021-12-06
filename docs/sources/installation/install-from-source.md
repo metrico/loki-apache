@@ -13,16 +13,16 @@ In order to build Loki manually, you need to clone the GitHub repo and then `mak
 
 ## Build manually on your local system
 
-Clone Loki to `$GOPATH/src/github.com/grafana/loki`:
+Clone Loki to `$GOPATH/src/github.com/metrico/loki-apache`:
 
 ```bash
-git clone https://github.com/grafana/loki $GOPATH/src/github.com/grafana/loki
+git clone https://github.com/metrico/loki-apache $GOPATH/src/github.com/metrico/loki-apache
 ```
 
 Then change into that directory and run `make loki`:
 
 ```bash
-cd $GOPATH/src/github.com/grafana/loki
+cd $GOPATH/src/github.com/metrico/loki-apache
 make loki
 ```
 

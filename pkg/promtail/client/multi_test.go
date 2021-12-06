@@ -14,11 +14,11 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/promtail/api"
-	lokiflag "github.com/grafana/loki/pkg/util/flagext"
+	"github.com/metrico/loki-apache/pkg/logproto"
+	"github.com/metrico/loki-apache/pkg/promtail/api"
+	lokiflag "github.com/metrico/loki-apache/pkg/util/flagext"
 
-	"github.com/grafana/loki/pkg/promtail/client/fake"
+	"github.com/metrico/loki-apache/pkg/promtail/client/fake"
 )
 
 func TestNewMulti(t *testing.T) {

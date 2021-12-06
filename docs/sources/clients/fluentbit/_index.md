@@ -46,7 +46,7 @@ For more information about this see our [AWS documentation](../aws/ecs)
 
 ### Local
 
-First, you need to follow the [instructions](https://github.com/grafana/loki/blob/master/cmd/fluent-bit/README.md) in order to build the plugin dynamic library.
+First, you need to follow the [instructions](https://github.com/metrico/loki-apache/blob/master/cmd/fluent-bit/README.md) in order to build the plugin dynamic library.
 
 The assuming you have Fluent Bit installed in your `$PATH` you can run the plugin using:
 
@@ -191,7 +191,7 @@ To configure the Loki output plugin add this section to fluent-bit.conf
     RemoveKeys key1,key2
 ```
 
-A full [example configuration file](https://github.com/grafana/loki/blob/master/cmd/fluent-bit/fluent-bit.conf) is also available in this repository.
+A full [example configuration file](https://github.com/metrico/loki-apache/blob/master/cmd/fluent-bit/fluent-bit.conf) is also available in this repository.
 
 ### Running multiple plugin instances
 

@@ -20,9 +20,9 @@ import (
 	"github.com/prometheus/common/version"
 	serverww "github.com/weaveworks/common/server"
 
-	"github.com/grafana/loki/pkg/promtail/server/ui"
-	"github.com/grafana/loki/pkg/promtail/targets"
-	"github.com/grafana/loki/pkg/promtail/targets/target"
+	"github.com/metrico/loki-apache/pkg/promtail/server/ui"
+	"github.com/metrico/loki-apache/pkg/promtail/targets"
+	"github.com/metrico/loki-apache/pkg/promtail/targets/target"
 )
 
 var (

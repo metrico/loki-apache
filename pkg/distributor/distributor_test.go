@@ -28,11 +28,11 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/health/grpc_health_v1"
 
-	"github.com/grafana/loki/pkg/ingester/client"
-	"github.com/grafana/loki/pkg/logproto"
-	fe "github.com/grafana/loki/pkg/util/flagext"
-	"github.com/grafana/loki/pkg/util/runtime"
-	"github.com/grafana/loki/pkg/util/validation"
+	"github.com/metrico/loki-apache/pkg/ingester/client"
+	"github.com/metrico/loki-apache/pkg/logproto"
+	fe "github.com/metrico/loki-apache/pkg/util/flagext"
+	"github.com/metrico/loki-apache/pkg/util/runtime"
+	"github.com/metrico/loki-apache/pkg/util/validation"
 )
 
 const (

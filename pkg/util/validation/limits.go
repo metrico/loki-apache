@@ -4,7 +4,7 @@ import (
 	"flag"
 	"time"
 
-	"github.com/grafana/loki/pkg/util/flagext"
+	"github.com/metrico/loki-apache/pkg/util/flagext"
 )
 
 const (

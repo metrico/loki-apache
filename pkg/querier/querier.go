@@ -13,13 +13,13 @@ import (
 
 	cortex_validation "github.com/cortexproject/cortex/pkg/util/validation"
 
-	"github.com/grafana/loki/pkg/iter"
-	"github.com/grafana/loki/pkg/loghttp"
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logql"
-	"github.com/grafana/loki/pkg/storage"
-	listutil "github.com/grafana/loki/pkg/util"
-	"github.com/grafana/loki/pkg/util/validation"
+	"github.com/metrico/loki-apache/pkg/iter"
+	"github.com/metrico/loki-apache/pkg/loghttp"
+	"github.com/metrico/loki-apache/pkg/logproto"
+	"github.com/metrico/loki-apache/pkg/logql"
+	"github.com/metrico/loki-apache/pkg/storage"
+	listutil "github.com/metrico/loki-apache/pkg/util"
+	"github.com/metrico/loki-apache/pkg/util/validation"
 )
 
 const (

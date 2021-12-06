@@ -13,11 +13,11 @@ import (
 	"github.com/prometheus/common/model"
 	fsnotify "gopkg.in/fsnotify.v1"
 
-	"github.com/grafana/loki/pkg/helpers"
-	"github.com/grafana/loki/pkg/promtail/api"
-	"github.com/grafana/loki/pkg/promtail/client"
-	"github.com/grafana/loki/pkg/promtail/positions"
-	"github.com/grafana/loki/pkg/promtail/targets/target"
+	"github.com/metrico/loki-apache/pkg/helpers"
+	"github.com/metrico/loki-apache/pkg/promtail/api"
+	"github.com/metrico/loki-apache/pkg/promtail/client"
+	"github.com/metrico/loki-apache/pkg/promtail/positions"
+	"github.com/metrico/loki-apache/pkg/promtail/targets/target"
 )
 
 const (

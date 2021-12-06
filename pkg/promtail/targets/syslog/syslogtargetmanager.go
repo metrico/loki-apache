@@ -5,10 +5,10 @@ import (
 	"github.com/go-kit/kit/log/level"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/grafana/loki/pkg/logentry/stages"
-	"github.com/grafana/loki/pkg/promtail/api"
-	"github.com/grafana/loki/pkg/promtail/scrapeconfig"
-	"github.com/grafana/loki/pkg/promtail/targets/target"
+	"github.com/metrico/loki-apache/pkg/logentry/stages"
+	"github.com/metrico/loki-apache/pkg/promtail/api"
+	"github.com/metrico/loki-apache/pkg/promtail/scrapeconfig"
+	"github.com/metrico/loki-apache/pkg/promtail/targets/target"
 )
 
 // SyslogTargetManager manages a series of SyslogTargets.

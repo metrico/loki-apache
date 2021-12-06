@@ -2,7 +2,7 @@
 
 <a href="https://drone.grafana.net/grafana/loki"><img src="https://drone.grafana.net/api/badges/grafana/loki/status.svg" alt="Drone CI" /></a>
 <a href="https://circleci.com/gh/grafana/loki/tree/master"><img src="https://circleci.com/gh/grafana/loki.svg?style=shield&circle-token=618193e5787b2951c1ea3352ad5f254f4f52313d" alt="CircleCI" /></a>
-<a href="https://goreportcard.com/report/github.com/grafana/loki"><img src="https://goreportcard.com/badge/github.com/grafana/loki" alt="Go Report Card" /></a>
+<a href="https://goreportcard.com/report/github.com/metrico/loki-apache"><img src="https://goreportcard.com/badge/github.com/metrico/loki-apache" alt="Go Report Card" /></a>
 <a href="https://slack.grafana.com/"><img src="https://img.shields.io/badge/join%20slack-%23loki-brightgreen.svg" alt="Slack" /></a>
 
 # Loki: like Prometheus, but for logs.
@@ -41,13 +41,13 @@ Loki differs from Prometheus by focusing on logs instead of metrics, and deliver
 
 ### Documentation
 
-* [v2.2.1](https://github.com/grafana/loki/tree/v2.2.1/docs/README.md)
+* [v2.2.1](https://github.com/metrico/loki-apache/tree/v2.2.1/docs/README.md)
 
 ### Building from source
 
 Loki can be run in a single host, no-dependencies mode using the following commands.
 
-You need `go`, we recommend using the version found in [our build Dockerfile](https://github.com/grafana/loki/blob/master/loki-build-image/Dockerfile)
+You need `go`, we recommend using the version found in [our build Dockerfile](https://github.com/metrico/loki-apache/blob/master/loki-build-image/Dockerfile)
 
 ```bash
 
