@@ -4,7 +4,6 @@ go 1.15
 
 require (
 	cloud.google.com/go/pubsub v1.3.1
-	github.com/Masterminds/sprig/v3 v3.2.2
 	github.com/NYTimes/gziphandler v1.1.1
 	github.com/aws/aws-lambda-go v1.17.0
 	github.com/bmatcuk/doublestar v1.2.2
@@ -65,7 +64,7 @@ require (
 	go.uber.org/atomic v1.7.0
 	golang.org/x/crypto v0.0.0-20201208171446-5f87f3452ae9
 	golang.org/x/net v0.0.0-20201224014010-6772e930b67b
-	golang.org/x/sys v0.0.0-20201223074533-0d417f636930
+	golang.org/x/sys v0.1.0
 	google.golang.org/api v0.36.0
 	google.golang.org/grpc v1.33.2
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
