@@ -4,7 +4,6 @@ go 1.15
 
 require (
 	cloud.google.com/go/pubsub v1.3.1
-	github.com/Masterminds/sprig/v3 v3.2.2
 	github.com/NYTimes/gziphandler v1.1.1
 	github.com/aws/aws-lambda-go v1.17.0
 	github.com/bmatcuk/doublestar v1.2.2
@@ -14,7 +13,7 @@ require (
 	github.com/coreos/go-systemd v0.0.0-20191104093116-d3cd4ed1dbcf
 	github.com/cortexproject/cortex v1.6.1-0.20210204145131-7dac81171c66
 	github.com/davecgh/go-spew v1.1.1
-	github.com/docker/docker v20.10.1+incompatible
+	github.com/docker/docker v20.10.24+incompatible
 	github.com/docker/go-metrics v0.0.0-20181218153428-b84716841b82 // indirect
 	github.com/docker/go-plugins-helpers v0.0.0-20181025120712-1e6269c305b8
 	github.com/drone/envsubst v1.0.2
